@@ -23,3 +23,6 @@ A Retail Inventory Analytics System developed using Spring Boot, Java, MySQL, HT
 1. Clone the repository.
 2. Configure MySQL in `application.properties`.
 3. Run:
+4. mvn spring-boot:run
+5. Open:
+6. http://localhost:8080/products
