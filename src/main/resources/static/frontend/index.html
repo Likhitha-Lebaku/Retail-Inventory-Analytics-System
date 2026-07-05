@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Retail Inventory Analytics</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h2>Retail Inventory Analytics</h2>
+
+    <input type="text" id="productName" placeholder="Product Name"><br><br>
+
+    <input type="text" id="category" placeholder="Category"><br><br>
+
+    <input type="number" id="purchasePrice" placeholder="Purchase Price"><br><br>
+
+    <input type="number" id="sellingPrice" placeholder="Selling Price"><br><br>
+
+    <input type="number" id="stockQuantity" placeholder="Stock Quantity"><br><br>
+
+    <input type="number" id="unitsSold" placeholder="Units Sold"><br><br>
+
+    <button onclick="addProduct()">Add Product</button>
+
+    <h3>Product List</h3>
+
+    <table border="1" width="100%">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Category</th>
+                <th>Purchase</th>
+                <th>Selling</th>
+                <th>Stock</th>
+                <th>Sold</th>
+            </tr>
+        </thead>
+
+        <tbody id="productTable"></tbody>
+    </table>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
